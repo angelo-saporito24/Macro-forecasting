@@ -186,9 +186,6 @@ projects, proposed and designed their merger, and led the overall direction; the
 merged pipeline and the forecaster-informed belief-model extension in this
 repository are his own follow-on work.
 
-Group members (ST455 — "The Q-Learners"; ST456 — "Regrettable Regressions"):
-**[add teammates' names here before making the repo public]**.
-
 The original notebooks are preserved unmodified under `notebooks/` as the record
 of the group work.
 
