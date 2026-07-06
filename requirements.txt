@@ -1,0 +1,16 @@
+# Core RL pipeline + analysis (the tested, runnable half of the repo).
+# Compatible-release floors; versions in comments are what this was run with.
+numpy>=1.26            # tested: 2.4.4
+pandas>=2.0            # tested: 3.0.2
+gymnasium>=1.0         # tested: 1.3.0
+stable-baselines3>=2.3 # tested: 2.9.0
+torch>=2.2             # tested: 2.12.1 (CPU is fine; the NK env is tiny)
+statsmodels>=0.14      # tested: 0.14.6  (Taylor-projection regression)
+
+# Tests
+pytest>=8.0
+
+# --- Optional: only needed to (re)train the DL forecaster in dl/ ----------- #
+# The RL half and the whole test-suite run WITHOUT TensorFlow. Install this
+# only if you want to run dl/msglstm.py in a TensorFlow+FRED environment.
+# tensorflow>=2.15
